@@ -1,0 +1,67 @@
+body
+		{
+			background-color: grey;
+		}
+
+table
+		{
+			border: 2px solid black;
+			border-collapse: collapse;
+			width: 700px;
+			text-align: center;
+		}
+
+tr,td,th 
+		{
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding: 15px;
+		}
+
+header
+		{
+			background-color: #ffb247;
+			padding: 20px;
+			text-align: center;
+			font-size: 40px;
+			color: #34568b;
+		}	
+
+footer
+		{
+			background-color: #66a3a3;
+			text-align: center;
+			color: white;
+			padding: 10px;
+		}
+
+
+/* Four image containers */
+.column{
+	float: left;
+	width: 15%;
+	padding: 5%;
+	text-align: center;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(#66cdaa,#e3c598);
+    background-size: cover;
+}
+
+
+
+    
